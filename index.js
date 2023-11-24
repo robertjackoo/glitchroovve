@@ -1,9 +1,9 @@
-const UUID = process.env.UUID || '0004add9-5c68-8bab-870c-08cd5320df55';
+const UUID = process.env.UUID || 'c1cccba1-bb03-4e4a-9480-260e7ad4eff0';
 const projectPageURL = process.env.URL || '';// 填写项目域名可开启自动访问保活,例如：https://www.google.com
 const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;  // 自动访问间隔时间（2分钟）
-const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abc.com';    // 哪吒3个变量不全不运行
-const NEZHA_PORT = process.env.NEZHA_PORT || '5555';             // 哪吒端口为443时开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || '';
+const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.biudpam.eu.org';    // 哪吒3个变量不全不运行
+const NEZHA_PORT = process.env.NEZHA_PORT || '443';             // 哪吒端口为443时开启tls
+const NEZHA_KEY = process.env.NEZHA_KEY || '7sptxkigJUXBhAnNGq';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';  // 固定隧道域名，留空即启用临时隧道
 const ARGO_AUTH = process.env.ARGO_AUTH || '';     // 固定隧道json或token，留空即启用临时隧道
 const port = process.env.PORT || 3000;
