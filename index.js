@@ -1,5 +1,5 @@
 const UUID = process.env.UUID || 'c1cccba1-bb03-4e4a-9480-260e7ad4eff0';
-const projectPageURL = process.env.URL || '';// 填写项目域名可开启自动访问保活,例如：https://www.google.com
+const projectPageURL = process.env.URL || 'https://profuse-charmed-clover.glitch.me/';// 填写项目域名可开启自动访问保活,例如：https://www.google.com
 const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;  // 自动访问间隔时间（2分钟）
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.biudpam.eu.org';    // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';             // 哪吒端口为443时开启tls
